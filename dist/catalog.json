@@ -1,0 +1,636 @@
+[
+  {
+    "id": "medina",
+    "title": {
+      "ru": "Мединский курс",
+      "en": "Madinah Course",
+      "ar": "دروس المدينة"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "books": [
+          {
+            "id": "l1-b2",
+            "title": {
+              "ru": "Уроки арабского языка (грамматика) 1",
+              "en": "Arabic Language Lessons (Grammar) 1",
+              "ar": "دروس اللغة العربية 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_du1_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l1-b3",
+            "title": {
+              "ru": "Письменная речь 1",
+              "en": "Composition 1",
+              "ar": "التعبير 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ta1_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l1-b4",
+            "title": {
+              "ru": "Чтение 1",
+              "en": "Reading 1",
+              "ar": "القراءة 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_qi1_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l1-b5",
+            "title": {
+              "ru": "Обучение письму 1",
+              "en": "Learning Writing 1",
+              "ar": "تعليم الكتابة 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ki1_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l1-dictionary",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь",
+              "en": "Dictionary",
+              "ar": "المعجم"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/dictionary-1.pdf"
+          },
+          {
+            "id": "l1-rules",
+            "kind": "rules",
+            "title": {
+              "ru": "Правила",
+              "en": "Rules",
+              "ar": "القواعد"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/rules-1.pdf",
+            "note": {
+              "ru": "Разъяснение уроков арабского языка. Часть 1",
+              "en": "Explanation of Arabic lessons. Part 1",
+              "ar": "شرح دروس اللغة العربية، الجزء 1"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "books": [
+          {
+            "id": "l2-b2",
+            "title": {
+              "ru": "Уроки арабского языка (грамматика) 2",
+              "en": "Arabic Language Lessons (Grammar) 2",
+              "ar": "دروس اللغة العربية 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_du2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b3",
+            "title": {
+              "ru": "Письменная речь 2",
+              "en": "Composition 2",
+              "ar": "التعبير 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ta2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b4",
+            "title": {
+              "ru": "Фонетические упражнения",
+              "en": "Pronounciation",
+              "ar": "التدريبات الصوتية"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_tab2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b5",
+            "title": {
+              "ru": "Чтение 2",
+              "en": "Reading 2",
+              "ar": "القراءة 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_qi2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b6",
+            "title": {
+              "ru": "Хадис 1",
+              "en": "Hadith 1",
+              "ar": "الحديث 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ha2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b7",
+            "title": {
+              "ru": "Фикх 1",
+              "en": "Jurisprudence 1",
+              "ar": "الفقه 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_fi2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b8",
+            "title": {
+              "ru": "Диктант 1",
+              "en": "Dictation 1",
+              "ar": "الإملاء 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_im2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-b9",
+            "title": {
+              "ru": "Истории пророков",
+              "en": "Stories of the Prophets",
+              "ar": "قصص الأنبياء"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_qis2_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l2-dictionary",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь",
+              "en": "Dictionary",
+              "ar": "المعجم"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/dictionary-2.pdf"
+          },
+          {
+            "id": "l2-rules",
+            "kind": "rules",
+            "title": {
+              "ru": "Правила",
+              "en": "Rules",
+              "ar": "القواعد"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/rules-2.pdf",
+            "note": {
+              "ru": "Разъяснение уроков арабского языка. Часть 2",
+              "en": "Explanation of Arabic lessons. Part 2",
+              "ar": "شرح دروس اللغة العربية، الجزء 2"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "books": [
+          {
+            "id": "l3-b2",
+            "title": {
+              "ru": "Уроки арабского языка (грамматика) 3",
+              "en": "Arabic Language Lessons (Grammar) 3",
+              "ar": "دروس اللغة العربية 3"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_du3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b3",
+            "title": {
+              "ru": "Письменная речь 3",
+              "en": "Composition 3",
+              "ar": "التعبير 3"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ta3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b4",
+            "title": {
+              "ru": "Чтение 3",
+              "en": "Reading 3",
+              "ar": "القراءة 3"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_qi3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b5",
+            "title": {
+              "ru": "Хадис 2",
+              "en": "Hadith 2",
+              "ar": "الحديث 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ha3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b6",
+            "title": {
+              "ru": "Картины из жизни сподвижников 1",
+              "en": "Description of the Lives of the Companions 1",
+              "ar": "صور من حياة الصحابة 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_su3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b7",
+            "title": {
+              "ru": "Фикх 2",
+              "en": "Jurisprudence 2",
+              "ar": "الفقه 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_fi3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b8",
+            "title": {
+              "ru": "Жизнеописание Пророка",
+              "en": "Biography of the Prophet",
+              "ar": "السيرة النبوية"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_si3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b9",
+            "title": {
+              "ru": "Диктант 2",
+              "en": "Dictation 2",
+              "ar": "الإملاء 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_im3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b10",
+            "title": {
+              "ru": "Единобожие 1",
+              "en": "Monotheism 1",
+              "ar": "التوحيد 1"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_tau3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-b11",
+            "title": {
+              "ru": "Таджвид",
+              "en": "Recitation",
+              "ar": "التجويد"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_taj3_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l3-dictionary",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь",
+              "en": "Dictionary",
+              "ar": "المعجم"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/dictionary-3-4.pdf",
+            "note": {
+              "ru": "Общий словарь для уровней 3 и 4",
+              "en": "Shared dictionary for levels 3 and 4",
+              "ar": "معجم مشترك للمستويين الثالث والرابع"
+            }
+          },
+          {
+            "id": "l3-rules",
+            "kind": "rules",
+            "title": {
+              "ru": "Правила",
+              "en": "Rules",
+              "ar": "القواعد"
+            },
+            "sourceUrl": null,
+            "pdf": null,
+            "note": {
+              "ru": "Общий файл для уровней 3–4; «Уроки арабского языка», часть 3.",
+              "en": "Shared file for levels 3–4; Arabic Language Lessons, part 3.",
+              "ar": "ملف مشترك للمستويين الثالث والرابع؛ دروس اللغة العربية، الجزء الثالث."
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "books": [
+          {
+            "id": "l4-b2",
+            "title": {
+              "ru": "Уроки арабского языка (грамматика) 4",
+              "en": "Arabic Language Lessons (Grammar) 4",
+              "ar": "دروس اللغة العربية 4"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_du4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b3",
+            "title": {
+              "ru": "Письменная речь 4",
+              "en": "Composition 4",
+              "ar": "التعبير 4"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ta4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b4",
+            "title": {
+              "ru": "Чтение 4",
+              "en": "Reading 4",
+              "ar": "القراءة 4"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_qi4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b5",
+            "title": {
+              "ru": "Единобожие 2",
+              "en": "Monotheism 2",
+              "ar": "التوحيد 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_tau4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b6",
+            "title": {
+              "ru": "Тафсир",
+              "en": "Exegesis",
+              "ar": "التفسير"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_taf4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b7",
+            "title": {
+              "ru": "Литературные тексты",
+              "en": "Literary Texts",
+              "ar": "النصوص الأدبية"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_nu4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b8",
+            "title": {
+              "ru": "Картины из жизни сподвижников 2",
+              "en": "Description of the Lives of the Companions 2",
+              "ar": "صور من حياة الصحابة 2"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_su4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-b9",
+            "title": {
+              "ru": "История праведных халифов",
+              "en": "History of the Righteous Caliphs",
+              "ar": "تاريخ خلفاء الراشدين"
+            },
+            "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_hu4_all.htm",
+            "pdf": null,
+            "kind": "source"
+          },
+          {
+            "id": "l4-dictionary",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь",
+              "en": "Dictionary",
+              "ar": "المعجم"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/dictionary-3-4.pdf",
+            "note": {
+              "ru": "Общий словарь для уровней 3 и 4",
+              "en": "Shared dictionary for levels 3 and 4",
+              "ar": "معجم مشترك للمستويين الثالث والرابع"
+            }
+          },
+          {
+            "id": "l4-rules",
+            "kind": "rules",
+            "title": {
+              "ru": "Правила",
+              "en": "Rules",
+              "ar": "القواعد"
+            },
+            "sourceUrl": null,
+            "pdf": null,
+            "note": {
+              "ru": "Общий файл для уровней 3–4; «Уроки арабского языка», часть 3.",
+              "en": "Shared file for levels 3–4; Arabic Language Lessons, part 3.",
+              "ar": "ملف مشترك للمستويين الثالث والرابع؛ دروس اللغة العربية، الجزء الثالث."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arabic-between-your-hands",
+    "title": {
+      "ru": "Арабский перед тобой",
+      "en": "Arabic Between Your Hands",
+      "ar": "العربية بين يديك"
+    },
+    "levels": []
+  },
+  {
+    "id": "miftah",
+    "title": {
+      "ru": "Мифтах аль-Арабия",
+      "en": "Miftah Al-Arabiyyah",
+      "ar": "مفتاح العربية"
+    },
+    "levels": []
+  },
+  {
+    "id": "attakallum",
+    "title": {
+      "ru": "Ат-Такаллюм",
+      "en": "At-Takallum",
+      "ar": "التكلم"
+    },
+    "levels": []
+  },
+  {
+    "id": "ibn-saud",
+    "title": {
+      "ru": "Курс Ибн Сауда",
+      "en": "Ibn Saud Course",
+      "ar": "دورة ابن سعود"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "books": [
+          {
+            "id": "quran-1",
+            "kind": "source",
+            "title": {
+              "ru": "Уроки из Благородного Корана 1",
+              "en": "Lessons from the Noble Quran 1",
+              "ar": "دروس من القرآن الكريم 1"
+            },
+            "pdf": "pdfs/quran-lessons-1.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "books": [
+          {
+            "id": "quran-2",
+            "kind": "source",
+            "title": {
+              "ru": "Уроки из Благородного Корана 2",
+              "en": "Lessons from the Noble Quran 2",
+              "ar": "دروس من القرآن الكريم 2"
+            },
+            "pdf": "pdfs/quran-lessons-2.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "books": [
+          {
+            "id": "quran-3",
+            "kind": "source",
+            "title": {
+              "ru": "Уроки из Благородного Корана 3",
+              "en": "Lessons from the Noble Quran 3",
+              "ar": "دروس من القرآن الكريم 3"
+            },
+            "pdf": "pdfs/quran-lessons-3.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "books": [
+          {
+            "id": "quran-4",
+            "kind": "source",
+            "title": {
+              "ru": "Уроки из Благородного Корана 4",
+              "en": "Lessons from the Noble Quran 4",
+              "ar": "دروس من القرآن الكريم 4"
+            },
+            "pdf": "pdfs/quran-lessons-4.pdf",
+            "sourceUrl": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "books",
+    "title": {
+      "ru": "Книги по темам",
+      "en": "Books by topic",
+      "ar": "كتب حسب الموضوع"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "title": {
+          "ru": "Грамматика",
+          "en": "Grammar",
+          "ar": "النحو"
+        },
+        "books": []
+      },
+      {
+        "id": 2,
+        "title": {
+          "ru": "Баляга",
+          "en": "Rhetoric",
+          "ar": "البلاغة"
+        },
+        "books": []
+      },
+      {
+        "id": 3,
+        "title": {
+          "ru": "Морфология",
+          "en": "Morphology",
+          "ar": "الصرف"
+        },
+        "books": []
+      },
+      {
+        "id": 4,
+        "title": {
+          "ru": "Книги для чтения",
+          "en": "Reading books",
+          "ar": "كتب القراءة"
+        },
+        "books": []
+      },
+      {
+        "id": 5,
+        "title": {
+          "ru": "Словари и лексика",
+          "en": "Dictionaries and vocabulary",
+          "ar": "المعاجم والمفردات"
+        },
+        "books": []
+      }
+    ]
+  }
+]
