@@ -650,6 +650,27 @@
     },
     "levels": [
       {
+        "id": 0,
+        "title": {
+          "ru": "A0",
+          "en": "A0",
+          "ar": "A0"
+        },
+        "books": [
+          {
+            "id": "miftah-a0",
+            "kind": "source",
+            "title": {
+              "ru": "Мифтах аль-Арабия — A0",
+              "en": "Miftah Al-Arabiyyah — A0",
+              "ar": "مفتاح العربية — A0"
+            },
+            "pdf": "pdfs/miftah-a0.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": {
           "ru": "A1",
