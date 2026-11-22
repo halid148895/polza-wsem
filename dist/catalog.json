@@ -765,6 +765,38 @@
             "sourceUrl": null
           }
         ]
+      },
+      {
+        "id": 4,
+        "title": {
+          "ru": "B2",
+          "en": "B2",
+          "ar": "B2"
+        },
+        "books": [
+          {
+            "id": "miftah-b2-reading-writing",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение и письмо",
+              "en": "Reading and Writing",
+              "ar": "القراءة والكتابة"
+            },
+            "pdf": "pdfs/miftah-b2-reading-writing.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "miftah-b2-listening-speaking",
+            "kind": "source",
+            "title": {
+              "ru": "Аудирование и разговорная речь",
+              "en": "Listening and Speaking",
+              "ar": "المحادثة والاستماع"
+            },
+            "pdf": "pdfs/miftah-b2-listening-speaking.pdf",
+            "sourceUrl": null
+          }
+        ]
       }
     ]
   },
