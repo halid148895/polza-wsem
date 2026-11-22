@@ -484,7 +484,136 @@
       "en": "Arabic Between Your Hands",
       "ar": "العربية بين يديك"
     },
-    "levels": []
+    "levels": [
+      {
+        "id": 1,
+        "title": {
+          "ru": "Том 1",
+          "en": "Volume 1",
+          "ar": "المجلد 1"
+        },
+        "books": [
+          {
+            "id": "bayna-1-1",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 1",
+              "en": "Student book — Part 1",
+              "ar": "كتاب الطالب — الجزء 1"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-1-1.pdf"
+          },
+          {
+            "id": "bayna-1-2",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 2",
+              "en": "Student book — Part 2",
+              "ar": "كتاب الطالب — الجزء 2"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-1-2.pdf"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": {
+          "ru": "Том 2",
+          "en": "Volume 2",
+          "ar": "المجلد 2"
+        },
+        "books": [
+          {
+            "id": "bayna-2-1",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — сборник",
+              "en": "Student book — Collected volume",
+              "ar": "كتاب الطالب — نسخة مجمعة"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-2-1.pdf"
+          },
+          {
+            "id": "bayna-2-2",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 2",
+              "en": "Student book — Part 2",
+              "ar": "كتاب الطالب — الجزء 2"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-2-2.pdf"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": {
+          "ru": "Том 3",
+          "en": "Volume 3",
+          "ar": "المجلد 3"
+        },
+        "books": [
+          {
+            "id": "bayna-3-1",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 1",
+              "en": "Student book — Part 1",
+              "ar": "كتاب الطالب — الجزء 1"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-3-1.pdf"
+          },
+          {
+            "id": "bayna-3-2",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 2",
+              "en": "Student book — Part 2",
+              "ar": "كتاب الطالب — الجزء 2"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-3-2.pdf"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": {
+          "ru": "Том 4",
+          "en": "Volume 4",
+          "ar": "المجلد 4"
+        },
+        "books": [
+          {
+            "id": "bayna-4-1",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 1",
+              "en": "Student book — Part 1",
+              "ar": "كتاب الطالب — الجزء 1"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-4-1.pdf"
+          },
+          {
+            "id": "bayna-4-2",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник — часть 2",
+              "en": "Student book — Part 2",
+              "ar": "كتاب الطالب — الجزء 2"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-4-2.pdf"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "miftah",
@@ -493,7 +622,104 @@
       "en": "Miftah Al-Arabiyyah",
       "ar": "مفتاح العربية"
     },
-    "levels": []
+    "levels": [
+      {
+        "id": 1,
+        "title": {
+          "ru": "A1",
+          "en": "A1",
+          "ar": "A1"
+        },
+        "books": [
+          {
+            "id": "miftah-a1-reading-writing",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение и письмо",
+              "en": "Reading and Writing",
+              "ar": "القراءة والكتابة"
+            },
+            "pdf": "pdfs/miftah-a1-reading-writing.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "miftah-a1-listening-speaking",
+            "kind": "source",
+            "title": {
+              "ru": "Аудирование и разговорная речь",
+              "en": "Listening and Speaking",
+              "ar": "الاستماع والمحادثة"
+            },
+            "pdf": "pdfs/miftah-a1-listening-speaking.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": {
+          "ru": "A2",
+          "en": "A2",
+          "ar": "A2"
+        },
+        "books": [
+          {
+            "id": "miftah-a2-reading-writing",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение и письмо",
+              "en": "Reading and Writing",
+              "ar": "القراءة والكتابة"
+            },
+            "pdf": "pdfs/miftah-a2-reading-writing.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "miftah-a2-listening-speaking",
+            "kind": "source",
+            "title": {
+              "ru": "Аудирование и разговорная речь",
+              "en": "Listening and Speaking",
+              "ar": "الاستماع والمحادثة"
+            },
+            "pdf": "pdfs/miftah-a2-listening-speaking.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": {
+          "ru": "B1",
+          "en": "B1",
+          "ar": "B1"
+        },
+        "books": [
+          {
+            "id": "miftah-b1-reading-writing",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение и письмо",
+              "en": "Reading and Writing",
+              "ar": "القراءة والكتابة"
+            },
+            "pdf": "pdfs/miftah-b1-reading-writing.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "miftah-b1-listening-speaking",
+            "kind": "source",
+            "title": {
+              "ru": "Аудирование и разговорная речь",
+              "en": "Listening and Speaking",
+              "ar": "الاستماع والمحادثة"
+            },
+            "pdf": "pdfs/miftah-b1-listening-speaking.pdf",
+            "sourceUrl": null
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "attakallum",
