@@ -474,6 +474,32 @@
             }
           }
         ]
+      },
+      {
+        "id": 5,
+        "title": {
+          "ru": "Курс Абу Аделя",
+          "en": "Abu Adel’s Course",
+          "ar": "دورة أبي عادل"
+        },
+        "books": [
+          {
+            "id": "medina-abu-adel",
+            "kind": "source",
+            "title": {
+              "ru": "Абу Адель — курс арабского языка",
+              "en": "Abu Adel — Arabic Language Course",
+              "ar": "أبو عادل — دورة اللغة العربية"
+            },
+            "note": {
+              "ru": "К томам 1 и 2 Мединского курса",
+              "en": "For Madinah Course Volumes 1 and 2",
+              "ar": "للمجلدين الأول والثاني من دروس المدينة"
+            },
+            "pdf": "pdfs/medina-abu-adel.pdf",
+            "sourceUrl": null
+          }
+        ]
       }
     ]
   },
