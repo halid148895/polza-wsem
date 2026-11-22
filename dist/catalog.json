@@ -18,7 +18,7 @@
               "ar": "دروس اللغة العربية 1"
             },
             "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_du1_all.htm",
-            "pdf": null,
+            "pdf": "pdfs/medina-1-grammar.pdf",
             "kind": "source"
           },
           {
@@ -29,7 +29,7 @@
               "ar": "التعبير 1"
             },
             "sourceUrl": "https://hadithmv.github.io/mauhad/madeenah-arabic/processed_ta1_all.htm",
-            "pdf": null,
+            "pdf": "pdfs/medina-1-composition.pdf",
             "kind": "source"
           },
           {
@@ -64,6 +64,17 @@
             },
             "sourceUrl": null,
             "pdf": "pdfs/dictionary-1.pdf"
+          },
+          {
+            "id": "l1-illustrated-dictionary",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь в картинках к тому 1 (AL-ʿASR)",
+              "en": "Illustrated Dictionary for Volume 1 (AL-ʿASR)",
+              "ar": "المعجم المصور للجزء الأول (العصر)"
+            },
+            "pdf": "pdfs/medina-1-illustrated-dictionary.pdf",
+            "sourceUrl": null
           },
           {
             "id": "l1-rules",
