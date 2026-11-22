@@ -612,6 +612,32 @@
             "pdf": "pdfs/bayna-4-2.pdf"
           }
         ]
+      },
+      {
+        "id": 5,
+        "title": {
+          "ru": "Словарь",
+          "en": "Dictionary",
+          "ar": "المعجم"
+        },
+        "books": [
+          {
+            "id": "bayna-dictionary",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Иллюстрированный словарь «Арабский перед тобой»",
+              "en": "Arabic Between Your Hands Illustrated Dictionary",
+              "ar": "المعجم العربي بين يديك المصور"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-dictionary.pdf",
+            "note": {
+              "ru": "Общий словарь для томов 1–4",
+              "en": "Shared dictionary for Volumes 1–4",
+              "ar": "معجم مشترك للمجلدات ١–٤"
+            }
+          }
+        ]
       }
     ]
   },
