@@ -807,7 +807,136 @@
       "en": "At-Takallum",
       "ar": "التكلم"
     },
-    "levels": []
+    "levels": [
+      {
+        "id": 1,
+        "title": {
+          "ru": "A1",
+          "en": "A1",
+          "ar": "A1"
+        },
+        "books": [
+          {
+            "id": "takallum-a1-student",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник",
+              "en": "Student’s Book",
+              "ar": "كتاب الطالب"
+            },
+            "pdf": "pdfs/takallum-a1-student.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "takallum-a1-workbook",
+            "kind": "source",
+            "title": {
+              "ru": "Рабочая тетрадь",
+              "en": "Workbook",
+              "ar": "كتاب التدريبات"
+            },
+            "pdf": "pdfs/takallum-a1-workbook.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": {
+          "ru": "A2",
+          "en": "A2",
+          "ar": "A2"
+        },
+        "books": [
+          {
+            "id": "takallum-a2-student",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник",
+              "en": "Student’s Book",
+              "ar": "كتاب الطالب"
+            },
+            "pdf": "pdfs/takallum-a2-student.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "takallum-a2-workbook",
+            "kind": "source",
+            "title": {
+              "ru": "Рабочая тетрадь",
+              "en": "Workbook",
+              "ar": "كتاب التدريبات"
+            },
+            "pdf": "pdfs/takallum-a2-workbook.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": {
+          "ru": "B1",
+          "en": "B1",
+          "ar": "B1"
+        },
+        "books": [
+          {
+            "id": "takallum-b1-student",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник",
+              "en": "Student’s Book",
+              "ar": "كتاب الطالب"
+            },
+            "pdf": "pdfs/takallum-b1-student.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "takallum-b1-workbook",
+            "kind": "source",
+            "title": {
+              "ru": "Рабочая тетрадь",
+              "en": "Workbook",
+              "ar": "كتاب التدريبات"
+            },
+            "pdf": "pdfs/takallum-b1-workbook.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": {
+          "ru": "B2",
+          "en": "B2",
+          "ar": "B2"
+        },
+        "books": [
+          {
+            "id": "takallum-b2-student",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник",
+              "en": "Student’s Book",
+              "ar": "كتاب الطالب"
+            },
+            "pdf": "pdfs/takallum-b2-student.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "takallum-b2-student-scan",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник · скан без цветной обложки",
+              "en": "Student’s Book · scan without the color cover",
+              "ar": "كتاب الطالب · نسخة ممسوحة بلا غلاف ملون"
+            },
+            "pdf": "pdfs/takallum-b2-student-scan.pdf",
+            "sourceUrl": null
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "ibn-saud",
