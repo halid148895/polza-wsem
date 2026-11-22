@@ -17,6 +17,11 @@ function crumb(level,book,program){return `<nav class="breadcrumbs" aria-label="
 const meta=b=>b.pdf?t('pdf'):b.sourceUrl?t('html'):t('pending');
 function card(b,l,program){return `<a class="book-card" data-anchor="${b.id}" href="#/program/${program.id}/level/${l.id}/book/${b.id}"><h2>${esc(b.title[lang])}</h2>${lang!=='ar'?`<p class="original" lang="ar" dir="rtl">${esc(b.title.ar)}</p>`:''}${b.note?`<p class="meta">${esc(b.note[lang])}</p>`:''}<span class="tag">${meta(b)}</span></a>`}
 function list(l,program){const books=l.books.filter(b=>Object.values(b.title).some(v=>v.toLowerCase().includes(query.toLowerCase())));let out='';for(const extra of [false,true]){const items=books.filter(b=>['rules','dictionary'].includes(b.kind)===extra);if(items.length)out+=`<section aria-label="${extra?t('extra'):t('sourceBooks')}"><h2 class="section-title">${extra?t('extra'):t('sourceBooks')}</h2><div class="books">${items.map(b=>card(b,l,program)).join('')}</div></section>`}return out||`<p class="empty">${l.books.length?t('noResults'):emptyMaterials()}</p>`}
+function renderProgramCover(program) {
+  if (program.id !== 'miftah') return '';
+  const alt = {ru:'Учебники «Мифтах аль-Арабия» от A0 до B2',en:'Miftah Al-Arabiyyah textbooks from A0 to B2',ar:'كتب مفتاح العربية من المستوى A0 إلى B2'}[lang];
+  return `<img class="program-cover" src="images/miftah-levels.jpg" width="703" height="836" alt="${alt}">`;
+}
 function renderLevels(program){return `<div class="levels">${program.levels.map(level=>`<a class="level-card" href="#/program/${program.id}/level/${level.id}" data-anchor="level-${level.id}"><h2>${esc(levelTitle(level))}</h2></a>`).join('')}</div>`;}
 function render(){shell();const route=location.hash.replace(/^#\/?/,'').split('/');const program=programs.find(p=>p.id===(route[0]==='program'?route[1]:'medina'));const parts=route[2]==='level'?route.slice(2):route;const level=parts[0]==='level'?program?.levels.find(l=>l.id===Number(parts[1])):null;const book=level&&parts[2]==='book'?level.books.find(b=>b.id===parts[3]):null;let out='';if(parts[0]===''){
  const heading={ru:'Библиотека арабского языка',en:'Arabic Language Library',ar:'مكتبة اللغة العربية'}[lang];
@@ -25,7 +30,7 @@ function render(){shell();const route=location.hash.replace(/^#\/?/,'').split('/
 else if(parts[0]==='program'){
  const program=programs.find(item=>item.id===parts[1]);
  const empty={ru:'Материалы пока не добавлены',en:'No materials added yet',ar:'لم تُضف المواد بعد'}[lang];
- out=program?`${crumb()}<h1 data-anchor="heading">${esc(program.title[lang])}</h1>${program.levels.length?renderLevels(program):`<p class="empty">${empty}</p>`}`:`${crumb()}<h1>${t('notFound')}</h1>`;
+ out=program?`${crumb()}<h1 data-anchor="heading">${esc(program.title[lang])}</h1>${renderProgramCover(program)}${program.levels.length?renderLevels(program):`<p class="empty">${empty}</p>`}`:`${crumb()}<h1>${t('notFound')}</h1>`;
 }
 
 else if(!level||(parts[2]&&!book)){out=`${crumb()}<h1>${t('notFound')}</h1><a href="#/">${t('back')}</a>`}
