@@ -18,6 +18,10 @@ const meta=b=>b.pdf?t('pdf'):b.sourceUrl?t('html'):t('pending');
 function card(b,l,program){return `<a class="book-card" data-anchor="${b.id}" href="#/program/${program.id}/level/${l.id}/book/${b.id}"><h2>${esc(b.title[lang])}</h2>${lang!=='ar'?`<p class="original" lang="ar" dir="rtl">${esc(b.title.ar)}</p>`:''}${b.note?`<p class="meta">${esc(b.note[lang])}</p>`:''}<span class="tag">${meta(b)}</span></a>`}
 function list(l,program){const books=l.books.filter(b=>Object.values(b.title).some(v=>v.toLowerCase().includes(query.toLowerCase())));let out='';for(const extra of [false,true]){const items=books.filter(b=>['rules','dictionary'].includes(b.kind)===extra);if(items.length)out+=`<section aria-label="${extra?t('extra'):t('sourceBooks')}"><h2 class="section-title">${extra?t('extra'):t('sourceBooks')}</h2><div class="books">${items.map(b=>card(b,l,program)).join('')}</div></section>`}return out||`<p class="empty">${l.books.length?t('noResults'):emptyMaterials()}</p>`}
 function renderProgramCover(program) {
+  if (program.id === 'arabic-between-your-hands') {
+    const alt = {ru:'Учебники «Арабский перед тобой», тома 1–4',en:'Arabic Between Your Hands textbooks, volumes 1–4',ar:'كتب العربية بين يديك، المجلدات ١–٤'}[lang];
+    return `<img class="program-cover" src="images/bayna-cover.jpg" width="1080" height="1080" alt="${alt}">`;
+  }
   if (program.id !== 'miftah') return '';
   const alt = {ru:'Учебники «Мифтах аль-Арабия» от A0 до B2',en:'Miftah Al-Arabiyyah textbooks from A0 to B2',ar:'كتب مفتاح العربية من المستوى A0 إلى B2'}[lang];
   return `<img class="program-cover" src="images/miftah-levels.jpg" width="703" height="836" alt="${alt}">`;
