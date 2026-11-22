@@ -17,7 +17,16 @@ function crumb(level,book,program){return `<nav class="breadcrumbs" aria-label="
 const meta=b=>b.pdf?t('pdf'):b.sourceUrl?t('html'):t('pending');
 function card(b,l,program){return `<a class="book-card" data-anchor="${b.id}" href="#/program/${program.id}/level/${l.id}/book/${b.id}"><h2>${esc(b.title[lang])}</h2>${lang!=='ar'?`<p class="original" lang="ar" dir="rtl">${esc(b.title.ar)}</p>`:''}${b.note?`<p class="meta">${esc(b.note[lang])}</p>`:''}<span class="tag">${meta(b)}</span></a>`}
 function list(l,program){const books=l.books.filter(b=>Object.values(b.title).some(v=>v.toLowerCase().includes(query.toLowerCase())));let out='';for(const extra of [false,true]){const items=books.filter(b=>['rules','dictionary'].includes(b.kind)===extra);if(items.length)out+=`<section aria-label="${extra?t('extra'):t('sourceBooks')}"><h2 class="section-title">${extra?t('extra'):t('sourceBooks')}</h2><div class="books">${items.map(b=>card(b,l,program)).join('')}</div></section>`}return out||`<p class="empty">${l.books.length?t('noResults'):emptyMaterials()}</p>`}
+function renderMedinaCover(level) {
+  const alt = level
+    ? {ru:'Обложка курса Абу Аделя',en:'Cover of Abu Adel’s course',ar:'غلاف دورة أبي عادل'}[lang]
+    : {ru:'Обложка Мединского курса',en:'Madinah Course cover',ar:'غلاف دروس المدينة'}[lang];
+  const file = level ? 'abu-adel-cover.jpg' : 'medina-cover.jpg';
+  const dimensions = level ? 'width="372" height="537"' : 'width="387" height="516"';
+  return `<img class="program-cover" src="images/${file}" ${dimensions} alt="${alt}">`;
+}
 function renderProgramCover(program) {
+  if (program.id === 'medina') return renderMedinaCover();
   if (program.id === 'attakallum') {
     const alt = {ru:'Комплект учебников «Ат-Такаллюм»',en:'At-Takallum textbook set',ar:'مجموعة كتب التكلم'}[lang];
     return `<img class="program-cover" src="images/takallum-cover.jpg" width="720" height="440" alt="${alt}">`;
@@ -43,7 +52,7 @@ else if(parts[0]==='program'){
 
 else if(!level||(parts[2]&&!book)){out=`${crumb()}<h1>${t('notFound')}</h1><a href="#/">${t('back')}</a>`}
 else if(book){out=`${crumb(level,book,program)}<p class="eyebrow">${levelTitle(level)}</p><h1 data-anchor="${book.id}">${esc(book.title[lang])}</h1><div class="detail">${lang!=='ar'?`<h2 lang="ar" dir="rtl">${esc(book.title.ar)}</h2>`:''}${book.note?`<p class="note">${esc(book.note[lang])}</p>`:''}${book.pdf||book.sourceUrl?`<div class="actions"><a class="action" id="open-book" href="${esc(book.pdf||book.sourceUrl)}" target="_blank" rel="noopener">${t('open')}</a>${book.pdf?`<a class="action secondary" id="download-book" href="${esc(book.pdf)}" download="${esc(book.pdf.split('/').pop())}">${t('download')}</a>`:''}</div><p class="meta">${meta(book)} · ${t('original')}</p>`:`<p class="empty">${book.kind==='dictionary'?t('dictPending'):book.kind==='quran'?t('quranPending'):t('pending')}</p>`}</div>`}
-else {out=`${crumb(level,null,program)}<p class="eyebrow">${t('eyebrow')}</p><h1 data-anchor="heading">${levelTitle(level)}</h1><label class="search-label" for="search">${t('search')}</label><input class="search" type="search" id="search" value="${esc(query)}" placeholder="${esc(t('placeholder'))}"><div id="book-list">${list(level,program)}</div>`}
+else {out=`${crumb(level,null,program)}<p class="eyebrow">${t('eyebrow')}</p><h1 data-anchor="heading">${levelTitle(level)}</h1>${program.id === 'medina' && level.id === 5 ? renderMedinaCover(level) : ''}<label class="search-label" for="search">${t('search')}</label><input class="search" type="search" id="search" value="${esc(query)}" placeholder="${esc(t('placeholder'))}"><div id="book-list">${list(level,program)}</div>`}
 $('main').innerHTML=out;const search=$('search');if(search)search.addEventListener('input',()=>{query=search.value;$('book-list').innerHTML=list(level,program)});}
 function toggle(open){$('settings').hidden=!open;$('settings-toggle').setAttribute('aria-expanded',String(open));if(!open)$('settings-toggle').focus({preventScroll:true})}
 $('settings-toggle').onclick=()=>toggle($('settings').hidden);$('close').onclick=()=>toggle(false);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('settings').hidden)toggle(false)});$('plus').onclick=()=>setScale(scale+10);$('minus').onclick=()=>setScale(scale-10);$('reset').onclick=()=>setScale(100);$('language').onchange=()=>{const a=anchor();lang=$('language').value;save('medina-language',lang);render();restore(a)};
