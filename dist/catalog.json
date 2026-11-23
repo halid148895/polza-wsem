@@ -987,6 +987,42 @@
         "id": 1,
         "books": [
           {
+            "id": "ibn-saud-1-reading-writing",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение и письмо",
+              "en": "Reading and Writing",
+              "ar": "القراءة والكتابة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-1-Reading-and-Writing.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-1-listening",
+            "kind": "source",
+            "title": {
+              "ru": "Аудирование · книга с иллюстрациями",
+              "en": "Listening Skills",
+              "ar": "فهم المسموع · كتاب الصور"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-1-Listening-Skills-The-Book-of-Pictures.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-1-guide",
+            "kind": "source",
+            "title": {
+              "ru": "Пособие для преподавателя",
+              "en": "Teacher’s Guide",
+              "ar": "دليل المعلم"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-1-Level-One-Teachers-Guide.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
             "id": "quran-1",
             "kind": "source",
             "title": {
@@ -996,12 +1032,72 @@
             },
             "pdf": "pdfs/quran-lessons-1.pdf",
             "sourceUrl": null
+          },
+          {
+            "id": "ibn-saud-1-dictionary",
+            "kind": "source",
+            "title": {
+              "ru": "Словарь терминов",
+              "en": "Dictionary of Terms",
+              "ar": "معجم المصطلحات"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-1-Dictionary-of-Terms-Introduced-in-Level-One.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-1-handwriting",
+            "kind": "source",
+            "title": {
+              "ru": "Чистописание",
+              "en": "Handwriting",
+              "ar": "الخط"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-1-Arabic-Handwriting-Notebook.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-1-conversation",
+            "kind": "source",
+            "title": {
+              "ru": "Выражения и диалоги",
+              "en": "Expressions and Conversations",
+              "ar": "التعبير والمحادثة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-1-Arabic-Expressions-and-Conversation.pdf",
+            "sourceFormat": "pdf"
           }
         ]
       },
       {
         "id": 2,
         "books": [
+          {
+            "id": "ibn-saud-2-reading",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение",
+              "en": "Reading",
+              "ar": "القراءة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Arabic-Reading.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-guide",
+            "kind": "source",
+            "title": {
+              "ru": "Пособие для преподавателя",
+              "en": "Teacher’s Guide",
+              "ar": "دليل المعلم"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Level-Two-Teachers-Guide.pdf",
+            "sourceFormat": "pdf"
+          },
           {
             "id": "quran-2",
             "kind": "source",
@@ -1012,12 +1108,120 @@
             },
             "pdf": "pdfs/quran-lessons-2.pdf",
             "sourceUrl": null
+          },
+          {
+            "id": "ibn-saud-2-dictionary",
+            "kind": "source",
+            "title": {
+              "ru": "Словарь терминов",
+              "en": "Dictionary of Terms",
+              "ar": "معجم المصطلحات"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Dictionary-of-Terms-Introduced-in-Level-Two.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-handwriting",
+            "kind": "source",
+            "title": {
+              "ru": "Чистописание",
+              "en": "Handwriting",
+              "ar": "الخط"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Arabic-Handwriting-Notebook.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-conversation",
+            "kind": "source",
+            "title": {
+              "ru": "Выражения и диалоги",
+              "en": "Expressions and Conversations",
+              "ar": "التعبير والمحادثة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Arabic-Expressions-and-Conversation.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-hadith",
+            "kind": "source",
+            "title": {
+              "ru": "Хадис",
+              "en": "Ḥadīth",
+              "ar": "الحديث"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Hadith.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-morphology",
+            "kind": "source",
+            "title": {
+              "ru": "Морфология (сарф)",
+              "en": "Morphology (ṣarf)",
+              "ar": "الصرف"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Arabic-Morphology.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-grammar",
+            "kind": "source",
+            "title": {
+              "ru": "Грамматика (нахв)",
+              "en": "Grammar (naḥw)",
+              "ar": "النحو"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Arabic-Grammar.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-2-dictation",
+            "kind": "source",
+            "title": {
+              "ru": "Диктант",
+              "en": "Dictation",
+              "ar": "الإملاء"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-2-Arabic-Writing.pdf",
+            "sourceFormat": "pdf"
           }
         ]
       },
       {
         "id": 3,
         "books": [
+          {
+            "id": "ibn-saud-3-reading",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение",
+              "en": "Reading",
+              "ar": "القراءة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Arabic-Reading.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-guide",
+            "kind": "source",
+            "title": {
+              "ru": "Пособие для преподавателя",
+              "en": "Teacher’s Guide",
+              "ar": "دليل المعلم"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Level-Three-Teachers-Guide.pdf",
+            "sourceFormat": "pdf"
+          },
           {
             "id": "quran-3",
             "kind": "source",
@@ -1028,12 +1232,156 @@
             },
             "pdf": "pdfs/quran-lessons-3.pdf",
             "sourceUrl": null
+          },
+          {
+            "id": "ibn-saud-3-dictionary",
+            "kind": "source",
+            "title": {
+              "ru": "Словарь терминов",
+              "en": "Dictionary of Terms",
+              "ar": "معجم المصطلحات"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Dictionary-of-Terms-Introduced-in-Level-Three.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-handwriting",
+            "kind": "source",
+            "title": {
+              "ru": "Чистописание",
+              "en": "Handwriting",
+              "ar": "الخط"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Level-Three-Handwriting-Notebook.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-conversation",
+            "kind": "source",
+            "title": {
+              "ru": "Выражения и диалоги",
+              "en": "Expressions and Conversations",
+              "ar": "التعبير والمحادثة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Arabic-Expressions-and-Conversation.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-hadith",
+            "kind": "source",
+            "title": {
+              "ru": "Хадис",
+              "en": "Ḥadīth",
+              "ar": "الحديث"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Hadith.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-morphology",
+            "kind": "source",
+            "title": {
+              "ru": "Морфология (сарф)",
+              "en": "Morphology (ṣarf)",
+              "ar": "الصرف"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Arabic-Morphology.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-grammar",
+            "kind": "source",
+            "title": {
+              "ru": "Грамматика (нахв)",
+              "en": "Grammar (naḥw)",
+              "ar": "النحو"
+            },
+            "pdf": null,
+            "sourceUrl": "https://archive.org/download/ImamIbnSaudArabicBooks/Level3-Books313.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-dictation",
+            "kind": "source",
+            "title": {
+              "ru": "Диктант",
+              "en": "Dictation",
+              "ar": "الإملاء"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Arabic-Writing.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-tawhid",
+            "kind": "source",
+            "title": {
+              "ru": "Единобожие",
+              "en": "Tawḥīd",
+              "ar": "التوحيد"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Tawhid.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-fiqh",
+            "kind": "source",
+            "title": {
+              "ru": "Фикх",
+              "en": "fiqh",
+              "ar": "الفقه"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Fiqh.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-3-literature",
+            "kind": "source",
+            "title": {
+              "ru": "Арабская литература",
+              "en": "Arabic Literature (adab)",
+              "ar": "الأدب العربي"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-3-Arabic-Literature.pdf",
+            "sourceFormat": "pdf"
           }
         ]
       },
       {
         "id": 4,
         "books": [
+          {
+            "id": "ibn-saud-4-reading",
+            "kind": "source",
+            "title": {
+              "ru": "Чтение",
+              "en": "Reading",
+              "ar": "القراءة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Reading.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-religious-guide",
+            "kind": "source",
+            "title": {
+              "ru": "Пособие преподавателю по религиозным дисциплинам",
+              "en": "Teacher’s Guide for Religious Subjects",
+              "ar": "دليل المعلم للمواد الشرعية"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Level-Four-Teachers-Guide-for-Religious-Subjects.pdf",
+            "sourceFormat": "pdf"
+          },
           {
             "id": "quran-4",
             "kind": "source",
@@ -1043,6 +1391,454 @@
               "ar": "دروس من القرآن الكريم 4"
             },
             "pdf": "pdfs/quran-lessons-4.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "ibn-saud-4-dictionary",
+            "kind": "source",
+            "title": {
+              "ru": "Словарь терминов",
+              "en": "Dictionary of Terms",
+              "ar": "معجم المصطلحات"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Dictionary-of-Terms-Introduced-in-Level-Four.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-handwriting",
+            "kind": "source",
+            "title": {
+              "ru": "Чистописание",
+              "en": "Handwriting",
+              "ar": "الخط"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Level-Four-Handwriting-Notebook.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-conversation",
+            "kind": "source",
+            "title": {
+              "ru": "Выражения и диалоги",
+              "en": "Expressions and Conversations",
+              "ar": "التعبير والمحادثة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Exressions-and-Conversation.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-hadith",
+            "kind": "source",
+            "title": {
+              "ru": "Хадис",
+              "en": "Ḥadīth",
+              "ar": "الحديث"
+            },
+            "pdf": null,
+            "sourceUrl": "https://archive.org/download/ImamIbnSaudArabicBooks/Level4-Books404.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-morphology",
+            "kind": "source",
+            "title": {
+              "ru": "Морфология (сарф)",
+              "en": "Morphology (ṣarf)",
+              "ar": "الصرف"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Morphology.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-grammar",
+            "kind": "source",
+            "title": {
+              "ru": "Грамматика (нахв)",
+              "en": "Grammar (naḥw)",
+              "ar": "النحو"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Grammar.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-dictation",
+            "kind": "source",
+            "title": {
+              "ru": "Диктант",
+              "en": "Dictation",
+              "ar": "الإملاء"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Writing.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-tawhid",
+            "kind": "source",
+            "title": {
+              "ru": "Единобожие",
+              "en": "Tawḥīd",
+              "ar": "التوحيد"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Tawhid.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-fiqh",
+            "kind": "source",
+            "title": {
+              "ru": "Фикх",
+              "en": "fiqh",
+              "ar": "الفقه"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Fiqh.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-literature",
+            "kind": "source",
+            "title": {
+              "ru": "Арабская литература",
+              "en": "Arabic Literature (adab)",
+              "ar": "الأدب العربي"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Literature.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-history",
+            "kind": "source",
+            "title": {
+              "ru": "История ислама",
+              "en": "Islamic History",
+              "ar": "التاريخ الإسلامي"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Islamic-History.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "ibn-saud-4-eloquence",
+            "kind": "source",
+            "title": {
+              "ru": "Риторика и литературная критика",
+              "en": "Arabic Eloquence (balāghah)",
+              "ar": "البلاغة والنقد الأدبي"
+            },
+            "pdf": null,
+            "sourceUrl": "https://dusunnah.com/wp-content/uploads/2016/09/Level-4-Arabic-Eloquence-and-Literary-Criticism.pdf",
+            "sourceFormat": "pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tuhfa-azhariyya",
+    "title": {
+      "ru": "Сильсиляту ат-Тухфатиль Азхария",
+      "en": "Silsilat At-Tuhfah Al-Azhariyyah",
+      "ar": "سلسلة التحفة الأزهرية"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "coverLabel": "1",
+        "title": {
+          "ru": "Уровень 1 · Начальный I",
+          "en": "Level 1 · Beginner I",
+          "ar": "المستوى المبتدئ الأول"
+        },
+        "books": [
+          {
+            "id": "tuhfa-azhariyya-1",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник 1",
+              "en": "Textbook 1",
+              "ar": "الكتاب 1"
+            },
+            "pdf": "pdfs/tuhfa-azhariyya-1.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "coverLabel": "2",
+        "title": {
+          "ru": "Уровень 2 · Начальный II",
+          "en": "Level 2 · Beginner II",
+          "ar": "المستوى المبتدئ الثاني"
+        },
+        "books": [
+          {
+            "id": "tuhfa-azhariyya-2",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник 2",
+              "en": "Textbook 2",
+              "ar": "الكتاب 2"
+            },
+            "pdf": "pdfs/tuhfa-azhariyya-2.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "coverLabel": "3",
+        "title": {
+          "ru": "Уровень 3 · Средний I",
+          "en": "Level 3 · Intermediate I",
+          "ar": "المستوى المتوسط الأول"
+        },
+        "books": [
+          {
+            "id": "tuhfa-azhariyya-3",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник 3",
+              "en": "Textbook 3",
+              "ar": "الكتاب 3"
+            },
+            "pdf": "pdfs/tuhfa-azhariyya-3.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "coverLabel": "4",
+        "title": {
+          "ru": "Уровень 4 · Средний II",
+          "en": "Level 4 · Intermediate II",
+          "ar": "المستوى المتوسط الثاني"
+        },
+        "books": [
+          {
+            "id": "tuhfa-azhariyya-4",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник 4",
+              "en": "Textbook 4",
+              "ar": "الكتاب 4"
+            },
+            "pdf": "pdfs/tuhfa-azhariyya-4.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "coverLabel": "5",
+        "title": {
+          "ru": "Уровень 5 · Продвинутый I",
+          "en": "Level 5 · Advanced I",
+          "ar": "المستوى المتقدم الأول"
+        },
+        "books": [
+          {
+            "id": "tuhfa-azhariyya-5",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник 5",
+              "en": "Textbook 5",
+              "ar": "الكتاب 5"
+            },
+            "pdf": "pdfs/tuhfa-azhariyya-5.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "coverLabel": "6",
+        "title": {
+          "ru": "Уровень 6 · Продвинутый II",
+          "en": "Level 6 · Advanced II",
+          "ar": "المستوى المتقدم الثاني"
+        },
+        "books": [
+          {
+            "id": "tuhfa-azhariyya-6",
+            "kind": "source",
+            "title": {
+              "ru": "Учебник 6",
+              "en": "Textbook 6",
+              "ar": "الكتاب 6"
+            },
+            "pdf": "pdfs/tuhfa-azhariyya-6.pdf",
+            "sourceUrl": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quran",
+    "title": {
+      "ru": "Коран",
+      "en": "Quran",
+      "ar": "القرآن الكريم"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "title": {
+          "ru": "Мусхафы",
+          "en": "Mushafs",
+          "ar": "المصاحف"
+        },
+        "books": [
+          {
+            "id": "mushaf-tajwid-hafs",
+            "kind": "source",
+            "title": {
+              "ru": "Цветной мусхаф с таджвидом",
+              "en": "Color-coded Tajwid Mushaf",
+              "ar": "مصحف التجويد الملون"
+            },
+            "note": {
+              "ru": "Риваят: Хафс от ‘Асима · Дар аль-Ма‘рифа",
+              "en": "Recitation: Ḥafṣ ʿan ʿĀṣim · Dar Al-Maarifah",
+              "ar": "رواية حفص عن عاصم · دار المعرفة"
+            },
+            "pdf": "pdfs/mushaf-tajwid-hafs.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "mushaf-warsh",
+            "kind": "source",
+            "title": {
+              "ru": "Цветной мусхаф с таджвидом · Варш",
+              "en": "Color-coded Tajwid Mushaf · Warsh",
+              "ar": "مصحف التجويد الملون · ورش"
+            },
+            "note": {
+              "ru": "Варш от Нафи‘а, путь аль-Азрака · Дар аль-Ма‘рифа",
+              "en": "Warsh from Nāfiʿ via al-Azraq · Dar Al-Maarifah",
+              "ar": "ورش عن نافع من طريق الأزرق · دار المعرفة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://ar.assabile.com/telecharger-le-coran-pdf/tajwid-warsh/download",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "mushaf-qalun",
+            "kind": "source",
+            "title": {
+              "ru": "Цветной мусхаф с таджвидом · Калун",
+              "en": "Color-coded Tajwid Mushaf · Qalun",
+              "ar": "مصحف التجويد الملون · قالون"
+            },
+            "note": {
+              "ru": "Калун от Нафи‘а · Дар аль-Ма‘рифа",
+              "en": "Qālūn from Nāfiʿ · Dar Al-Maarifah",
+              "ar": "قالون عن نافع · دار المعرفة"
+            },
+            "pdf": null,
+            "sourceUrl": "https://archive.org/download/holy-quran-pdf/%D9%85%D8%B5%D8%AD%D9%81%20%D8%A7%D9%84%D8%AA%D8%AC%D9%88%D9%8A%D8%AF%20%D9%82%D8%A7%D9%84%D9%88%D9%86.pdf",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "mushaf-douri",
+            "kind": "source",
+            "title": {
+              "ru": "Мединский мусхаф · Ад-Дури",
+              "en": "Madinah Mushaf · Ad-Duri",
+              "ar": "مصحف المدينة النبوية · الدوري"
+            },
+            "note": {
+              "ru": "Ад-Дури от Абу ‘Амра · без цветовой разметки таджвида",
+              "en": "Ad-Dūrī from Abū ʿAmr · no tajwid color coding",
+              "ar": "الدوري عن أبي عمرو · من دون تلوين أحكام التجويد"
+            },
+            "pdf": null,
+            "sourceUrl": "https://ar.assabile.com/telecharger-le-coran-pdf/medine-douri/download",
+            "sourceFormat": "pdf"
+          },
+          {
+            "id": "mushaf-four-readings",
+            "kind": "source",
+            "title": {
+              "ru": "Цветной сборник четырёх риваятов",
+              "en": "Four Narrations · Color-coded Comparison",
+              "ar": "مصحف القراءات الأربع بالترميز اللوني"
+            },
+            "note": {
+              "ru": "Хафс, Варш, Калун и Ад-Дури · цветом отмечены различия между чтениями",
+              "en": "Ḥafṣ, Warsh, Qālūn and Ad-Dūrī · colors mark differences between readings",
+              "ar": "حفص وورش وقالون والدوري · ترميز الاختلافات بين الروايات"
+            },
+            "pdf": null,
+            "sourceUrl": "https://archive.org/download/Quran_Qraat-Trm/Quran_Qraat-trm.pdf",
+            "sourceFormat": "pdf"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": {
+          "ru": "Книги по Корану",
+          "en": "Books on the Quran",
+          "ar": "كتب عن القرآن"
+        },
+        "books": [
+          {
+            "id": "quran-word-meanings-1",
+            "kind": "source",
+            "title": {
+              "ru": "Значения слов Благородного Корана · Том 1",
+              "en": "Meanings of the Words of the Noble Quran · Volume 1",
+              "ar": "معاني كلمات القرآن الكريم كلمة كلمة · المجلد 1"
+            },
+            "note": {
+              "ru": "Башир Ахмад Сулейман Юнус",
+              "en": "Bashir Ahmad Sulayman Yunus",
+              "ar": "بشير أحمد سليمان يونس"
+            },
+            "pdf": "pdfs/quran-word-meanings-1.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "quran-word-meanings-2",
+            "kind": "source",
+            "title": {
+              "ru": "Значения слов Благородного Корана · Том 2",
+              "en": "Meanings of the Words of the Noble Quran · Volume 2",
+              "ar": "معاني كلمات القرآن الكريم كلمة كلمة · المجلد 2"
+            },
+            "note": {
+              "ru": "Башир Ахмад Сулейман Юнус",
+              "en": "Bashir Ahmad Sulayman Yunus",
+              "ar": "بشير أحمد سليمان يونس"
+            },
+            "pdf": "pdfs/quran-word-meanings-2.pdf",
+            "sourceUrl": null
+          },
+          {
+            "id": "quran-word-meanings-3",
+            "kind": "source",
+            "title": {
+              "ru": "Значения слов Благородного Корана · Том 3",
+              "en": "Meanings of the Words of the Noble Quran · Volume 3",
+              "ar": "معاني كلمات القرآن الكريم كلمة كلمة · المجلد 3"
+            },
+            "note": {
+              "ru": "Башир Ахмад Сулейман Юнус",
+              "en": "Bashir Ahmad Sulayman Yunus",
+              "ar": "بشير أحمد سليمان يونس"
+            },
+            "pdf": "pdfs/quran-word-meanings-3.pdf",
             "sourceUrl": null
           }
         ]

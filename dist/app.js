@@ -14,7 +14,7 @@ function setScale(value){const a=anchor();scale=Math.max(80,Math.min(180,value))
 function shell(){document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.title=t('brand');$('brand').textContent=t('brand');$('settings-toggle').textContent=t('settings');$('settings-title').textContent=t('settings');$('language-label').textContent=t('language');$('language').value=lang;$('scale-label').textContent=t('scale');$('scale-help').textContent=t('scaleHelp');$('close').setAttribute('aria-label',t('close'));$('minus').setAttribute('aria-label',t('minus'));$('plus').setAttribute('aria-label',t('plus'));$('reset').textContent=t('reset');$('source-label').textContent=t('source');$('footer-text').textContent=t('footer');document.querySelector('.skip').textContent=t('sourceBooks');document.querySelector('.brand').setAttribute('aria-label',t('library'));}
 const levelTitle=level=>level.title?.[lang]||t('levels')[level.id-1]||t('level')+' '+level.id;
 function crumb(level,book,program){return `<nav class="breadcrumbs" aria-label="${esc(t('library'))}"><a href="#/">${t('library')}</a>${level?`<span>/</span><a href="#/program/${program.id}">${esc(program.title[lang])}</a><span>/</span>${book?`<a href="#/program/${program.id}/level/${level.id}">${levelTitle(level)}</a>`:`<span>${levelTitle(level)}</span>`}`:''}${book?`<span>/</span><span>${esc(book.title[lang])}</span>`:''}</nav>`}
-const meta=b=>b.pdf?t('pdf'):b.sourceUrl?t('html'):t('pending');
+const meta=b=>b.pdf||b.sourceFormat==='pdf'?t('pdf'):b.sourceUrl?t('html'):t('pending');
 function card(b,l,program,index){return `<a class="book-card" data-anchor="${b.id}" href="#/program/${program.id}/level/${l.id}/book/${b.id}"><h2 class="course-card-heading">${renderCourseBookIcon('',index)}<span>${esc(b.title[lang])}</span></h2>${lang!=='ar'?`<p class="original" lang="ar" dir="rtl">${esc(b.title.ar)}</p>`:''}${b.note?`<p class="meta">${esc(b.note[lang])}</p>`:''}<span class="tag">${meta(b)}</span></a>`}
 function list(l,program){const books=l.books.filter(b=>Object.values(b.title).some(v=>v.toLowerCase().includes(query.toLowerCase())));let out='';for(const extra of [false,true]){const items=books.filter(b=>['rules','dictionary'].includes(b.kind)===extra);if(items.length)out+=`<section aria-label="${extra?t('extra'):t('sourceBooks')}"><h2 class="section-title">${extra?t('extra'):t('sourceBooks')}</h2><div class="books">${items.map((b,index)=>card(b,l,program,index)).join('')}</div></section>`}return out||`<p class="empty">${l.books.length?t('noResults'):emptyMaterials()}</p>`}
 function renderMedinaCover(level) {
@@ -25,7 +25,17 @@ function renderMedinaCover(level) {
   const dimensions = level ? 'width="372" height="537"' : 'width="387" height="516"';
   return `<img class="program-cover" src="images/${file}" ${dimensions} alt="${alt}">`;
 }
+function renderSectionCover(program, level) {
+  if (program.id === 'medina' && level.id === 5) return renderMedinaCover(level);
+  if (program.id !== 'quran' || level.id !== 2) return '';
+  const alt = {ru:'Три тома «Значения слов Благородного Корана»',en:'Three volumes of Meanings of the Words of the Noble Quran',ar:'المجلدات الثلاثة من معاني كلمات القرآن الكريم'}[lang];
+  return renderCoverStage(`<img class="program-cover" src="images/quran-word-meanings.webp" width="1440" height="672" alt="${alt}">`);
+}
+
 function programCoverImage(program) {
+  if (program.id === 'tuhfa-azhariyya') {
+    return `<img class="program-cover" src="images/tuhfa-azhariyya.webp" width="2400" height="2080" alt="${esc(program.title[lang])}">`;
+  }
   if (program.id === 'medina') return renderMedinaCover();
   if (program.id === 'attakallum') {
     const alt = {ru:'Комплект учебников «Ат-Такаллюм»',en:'At-Takallum textbook set',ar:'مجموعة كتب التكلم'}[lang];
@@ -43,6 +53,11 @@ function renderProgramCover(program) {
   const image = programCoverImage(program);
   const animate = lastCourseAnimationRoute !== location.hash;
   if (!image) return `<div class="program-neutral">${renderBookScene(animate)}</div>`;
+  return renderCoverStage(image);
+}
+
+function renderCoverStage(image) {
+  const animate = lastCourseAnimationRoute !== location.hash;
   const effect = animate ? ' program-cover-enter' : '';
   return `<div class="program-cover-stage${effect}">
     ${image}
@@ -109,6 +124,7 @@ function renderLibraryIntro(heading) {
 }
 
 function coverLabel(level) {
+  if (level.coverLabel) return level.coverLabel;
   if (!level.title || /^Volume \d+$/.test(level.title.en)) return String(level.id);
   return /^[A-C][0-2]$/.test(level.title.en) ? level.title.en : '';
 }
@@ -159,7 +175,7 @@ else if(parts[0]==='program'){
 
 else if(!level||(parts[2]&&!book)){out=`${crumb()}<h1>${t('notFound')}</h1><a href="#/">${t('back')}</a>`}
 else if(book){out=`${crumb(level,book,program)}<p class="eyebrow">${levelTitle(level)}</p><h1 data-anchor="${book.id}">${esc(book.title[lang])}</h1><div class="detail">${lang!=='ar'?`<h2 lang="ar" dir="rtl">${esc(book.title.ar)}</h2>`:''}${book.note?`<p class="note">${esc(book.note[lang])}</p>`:''}${book.pdf||book.sourceUrl?`<div class="actions"><a class="action" id="open-book" href="${esc(book.pdf||book.sourceUrl)}" target="_blank" rel="noopener">${t('open')}</a>${book.pdf?`<a class="action secondary" id="download-book" href="${esc(book.pdf)}" download="${esc(book.pdf.split('/').pop())}">${t('download')}</a>`:''}${book.pdf&&book.sourceUrl?`<a class="action secondary" href="${esc(book.sourceUrl)}" target="_blank" rel="noopener">${{ru:'Открыть онлайн-версию',en:'Open online edition',ar:'فتح النسخة الإلكترونية'}[lang]}</a>`:''}</div>${book.pdf ? renderPdfLoadingNote() : ''}<p class="meta">${meta(book)} · ${t('original')}</p>`:`<p class="empty">${book.kind==='dictionary'?t('dictPending'):book.kind==='quran'?t('quranPending'):t('pending')}</p>`}</div>`}
-else {out=`${crumb(level,null,program)}<p class="eyebrow">${t('eyebrow')}</p><h1 data-anchor="heading">${levelTitle(level)}</h1>${program.id === 'medina' && level.id === 5 ? renderMedinaCover(level) : ''}<label class="search-label" for="search">${t('search')}</label><input class="search" type="search" id="search" value="${esc(query)}" placeholder="${esc(t('placeholder'))}"><div id="book-list">${list(level,program)}</div>`}
+else {out=`${crumb(level,null,program)}<p class="eyebrow">${t('eyebrow')}</p><h1 data-anchor="heading">${levelTitle(level)}</h1>${renderSectionCover(program, level)}<label class="search-label" for="search">${t('search')}</label><input class="search" type="search" id="search" value="${esc(query)}" placeholder="${esc(t('placeholder'))}"><div id="book-list">${list(level,program)}</div>`}
 $('main').innerHTML=out;prepareProgramCover();animateCourseBooks(location.hash);const search=$('search');if(search)search.addEventListener('input',()=>{query=search.value;$('book-list').innerHTML=list(level,program)});}
 function toggle(open){$('settings').hidden=!open;$('settings-toggle').setAttribute('aria-expanded',String(open));if(!open)$('settings-toggle').focus({preventScroll:true})}
 $('settings-toggle').onclick=()=>toggle($('settings').hidden);$('close').onclick=()=>toggle(false);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('settings').hidden)toggle(false)});$('plus').onclick=()=>setScale(scale+10);$('minus').onclick=()=>setScale(scale-10);$('reset').onclick=()=>setScale(100);$('language').onchange=()=>{const a=anchor();lang=$('language').value;save('medina-language',lang);render();restore(a)};
