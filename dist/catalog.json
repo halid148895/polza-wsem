@@ -653,9 +653,9 @@
       {
         "id": 5,
         "title": {
-          "ru": "Словарь",
-          "en": "Dictionary",
-          "ar": "المعجم"
+          "ru": "Словари",
+          "en": "Dictionaries",
+          "ar": "المعاجم"
         },
         "books": [
           {
@@ -673,6 +673,61 @@
               "en": "Shared dictionary for Volumes 1–4",
               "ar": "معجم مشترك للمجلدات ١–٤"
             }
+          },
+          {
+            "id": "bayna-vocab-1",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь к тому 1",
+              "en": "Vocabulary for Volume 1",
+              "ar": "شرح مفردات الكتاب الأول"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-vocab-1.pdf"
+          },
+          {
+            "id": "bayna-vocab-2",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь к тому 2",
+              "en": "Vocabulary for Volume 2",
+              "ar": "معجم الكتاب الثاني"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-vocab-2.pdf"
+          },
+          {
+            "id": "bayna-verbs-2a",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Спряжения глаголов · Том 2, часть А",
+              "en": "Verb Conjugations · Volume 2, Part A",
+              "ar": "التصريفات للكتاب الثاني أ"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-verbs-2a.pdf"
+          },
+          {
+            "id": "bayna-verbs-2b",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Спряжения глаголов · Том 2, часть Б",
+              "en": "Verb Conjugations · Volume 2, Part B",
+              "ar": "التصريفات للكتاب الثاني ب"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-verbs-2b.pdf"
+          },
+          {
+            "id": "bayna-vocab-3",
+            "kind": "dictionary",
+            "title": {
+              "ru": "Словарь к тому 3",
+              "en": "Vocabulary for Volume 3",
+              "ar": "معجم الكتاب الثالث"
+            },
+            "sourceUrl": null,
+            "pdf": "pdfs/bayna-vocab-3.pdf"
           }
         ]
       }
