@@ -139,7 +139,11 @@
   .book-scene { height: 5.5rem; max-width: 13rem; margin-inline: auto; }
   .book-model { scale: .76; }
 }
-.library-home-grid h2 { display: flex; align-items: center; gap: .65em; }
+.catalogue-grid h2 { display: flex; align-items: center; gap: .65em; }
+.catalogue-grid h2 > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+@media (min-width: 621px) {
+  .library-home-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 .library-course-icon {
   position: relative;
   display: block;
@@ -204,10 +208,8 @@
     to { opacity: 1; transform: rotate(-9deg); }
   }
 }
-@media (min-width: 350px) and (max-width: 620px) {
-  .library-home-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .library-home-grid .level-card { padding: .75em; }
-  .library-home-grid h2 {
+@media (max-width: 620px) {
+  .catalogue-grid h2 {
     font-size: 1em;
     line-height: 1.25;
     margin: 0;
