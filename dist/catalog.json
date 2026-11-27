@@ -1901,6 +1901,104 @@
     ]
   },
   {
+    "id": "al-mumtaz",
+    "title": {
+      "ru": "Аль-Мумтаз",
+      "en": "Al-Mumtaz",
+      "ar": "الممتاز"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "coverLabel": "1",
+        "title": {
+          "ru": "Уровень 1",
+          "en": "Level 1",
+          "ar": "المستوى 1"
+        },
+        "books": [
+          {
+            "id": "mumtaz-hiwar-1",
+            "kind": "source",
+            "title": {
+              "ru": "Повседневные диалоги · Книга 1",
+              "en": "Everyday Dialogues · Book 1",
+              "ar": "الممتاز في الحوارات اليومية · الكتاب 1"
+            },
+            "pdf": "pdfs/mumtaz-hiwar-1.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "coverLabel": "2",
+        "title": {
+          "ru": "Уровень 2",
+          "en": "Level 2",
+          "ar": "المستوى 2"
+        },
+        "books": [
+          {
+            "id": "mumtaz-hiwar-2",
+            "kind": "source",
+            "title": {
+              "ru": "Повседневные диалоги · Книга 2",
+              "en": "Everyday Dialogues · Book 2",
+              "ar": "الممتاز في الحوارات اليومية · الكتاب 2"
+            },
+            "pdf": "pdfs/mumtaz-hiwar-2.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "coverLabel": "3",
+        "title": {
+          "ru": "Уровень 3",
+          "en": "Level 3",
+          "ar": "المستوى 3"
+        },
+        "books": [
+          {
+            "id": "mumtaz-hiwar-3",
+            "kind": "source",
+            "title": {
+              "ru": "Повседневные диалоги · Книга 3",
+              "en": "Everyday Dialogues · Book 3",
+              "ar": "الممتاز في الحوارات اليومية · الكتاب 3"
+            },
+            "pdf": "pdfs/mumtaz-hiwar-3.pdf",
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "coverLabel": "4",
+        "title": {
+          "ru": "Уровень 4",
+          "en": "Level 4",
+          "ar": "المستوى 4"
+        },
+        "books": [
+          {
+            "id": "mumtaz-hiwar-4",
+            "kind": "source",
+            "title": {
+              "ru": "Повседневные диалоги · Книга 4",
+              "en": "Everyday Dialogues · Book 4",
+              "ar": "الممتاز في الحوارات اليومية · الكتاب 4"
+            },
+            "pdf": "pdfs/mumtaz-hiwar-4.pdf",
+            "sourceUrl": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "books",
     "title": {
       "ru": "Книги по темам",

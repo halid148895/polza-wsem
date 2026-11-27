@@ -33,6 +33,9 @@ function renderSectionCover(program, level) {
 }
 
 function programCoverImage(program) {
+  if (program.id === 'al-mumtaz') {
+    return `<img class="program-cover" src="images/al-mumtaz-cover.jpg" width="1000" height="360" alt="${esc(program.title[lang])}">`;
+  }
   if (program.id === 'tuhfa-azhariyya') {
     return `<img class="program-cover" src="images/tuhfa-azhariyya.webp" width="2400" height="2080" alt="${esc(program.title[lang])}">`;
   }
